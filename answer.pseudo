@@ -1,0 +1,15 @@
+<?php
+
+/**
+ *
+ * Generate a random number for a name between 6 and 15
+ *
+ * @param    string  $name
+ * @return   string
+ *
+ */
+function generateRandomNumber($name){
+	return $name." ".rand(6, 15);
+}
+
+?>
